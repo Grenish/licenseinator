@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Montserrat } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     title: "Licenseinator - Find Your Ideal Open Source License",
     description:
       "Compare open source licenses, understand copyleft strength, and make informed decisions for your project.",
-    url: "https://licenseinator.vercel.app",
+    url: "https://license-inator.vercel.app",
     siteName: "Licenseinator",
     images: [
       {
-        url: "https://licenseinator/og-image.png",
+        url: "https://license-inator/og-image.png",
         width: 1200,
         height: 630,
         alt: "Licenseinator - Open Source License Explorer",
