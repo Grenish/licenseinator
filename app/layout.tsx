@@ -10,8 +10,36 @@ const Mont = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Licenseinator",
-  description: "Helps you find your ideal license for your next project",
+  title: "Licenseinator - Find Your Ideal Open Source License",
+  description:
+    "Helps you find your ideal license for your next project. Compare open source licenses, understand copyleft strength, and make informed decisions.",
+  keywords:
+    "open source, license, MIT, GPL, Apache, BSD, Mozilla, copyleft, permissive, software license",
+  authors: [{ name: "Licenseinator Team" }],
+  openGraph: {
+    title: "Licenseinator - Find Your Ideal Open Source License",
+    description:
+      "Compare open source licenses, understand copyleft strength, and make informed decisions for your project.",
+    url: "https://licenseinator.vercel.app",
+    siteName: "Licenseinator",
+    images: [
+      {
+        url: "https://licenseinator/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Licenseinator - Open Source License Explorer",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Licenseinator - Find Your Ideal Open Source License",
+    description:
+      "Compare open source licenses, understand copyleft strength, and make informed decisions for your project.",
+    images: ["/og-image-1.png"],
+  },
 };
 
 export default function RootLayout({

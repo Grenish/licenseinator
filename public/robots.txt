@@ -1,0 +1,6 @@
+# Robots.txt file for Licenseinator
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://licenseinator.vercel.app/sitemap.xml
