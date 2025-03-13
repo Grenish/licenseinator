@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Licenseinator
 
-## Getting Started
+A modern web application to help developers find the ideal open source license for their projects.
 
-First, run the development server:
+![Licenseinator](./public/licenseinator.png)
+
+## 🚀 Features
+
+- **Simple Explanations**: Clear, jargon-free descriptions of each license and its terms
+- **License Comparison**: Compare different licenses side-by-side to find the best match
+- **Copyleft Strength Indicators**: Easily understand the restrictions of each license
+- **Real-world Examples**: See which popular projects use each license
+- **Compatibility Information**: Check if licenses work with other common licenses
+
+## 📋 Available Licenses
+
+Licenseinator includes detailed information about many popular open source licenses, including:
+
+- MIT License
+- Apache License 2.0
+- GNU GPL (v2.0 and v3.0)
+- BSD Licenses
+- Mozilla Public License
+- GNU AGPL
+- And many more!
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Lucide Icons](https://lucide.dev/) - Beautiful SVG icons
+- [Bun](https://bun.sh/) - JavaScript runtime & package manager
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Bun](https://bun.sh/) installed on your machine
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+git clone https://github.com/Grenish/licenseinator.git
+cd licenseinator
+````
+
+2. Install dependencies:
+
+```bash
+bun install
+```
+
+3. Run the development server:
+
+```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributions are welcome! If you'd like to help improve Licenseinator:
 
-## Learn More
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🙏 Acknowledgments
 
-## Deploy on Vercel
+- All the open source communities that created and maintain these licenses
+- [Open Source Initiative](https://opensource.org/) for license standardization
+- [Choose a License](https://choosealicense.com/) for inspiration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Project Link: [https://github.com/Grenish/licenseinator](https://github.com/Grenish/licenseinator)
+
+---
+
+Built with ❤️ for the open source community
+
