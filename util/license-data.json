@@ -1,0 +1,382 @@
+{
+  "licenses": [
+    {
+      "name": "Apache License 2.0",
+      "description": "A permissive license that allows users to freely use, modify, and distribute the software, with a requirement to state changes and include the original license.",
+      "key_features": [
+        "Explicit patent grants",
+        "Trademark rules",
+        "Clear modification tracking requirements",
+        "Licensing compatibility with proprietary software"
+      ],
+      "compatibility": {
+        "with_gpl": "GPL-3.0 compatible when relicensing",
+        "with_mit": "Compatible",
+        "with_bsd": "Compatible",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Well-established in court cases",
+      "examples": ["Apache HTTP Server", "Android (partial usage)"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Modified files only",
+        "modification_clause": "Must mark changes",
+        "warranty": "Explicit disclaimer"
+      },
+      "history_and_context": "Created by Apache Software Foundation in 2000, updated in 2004. Designed for corporate-friendly open source.",
+      "copyleft_strength": "None",
+      "osi_approved": true
+    },
+    {
+      "name": "MIT License",
+      "description": "A simple and permissive license that allows users to do almost anything with the software, as long as they include the original license and copyright notice.",
+      "key_features": [
+        "Minimal restrictions",
+        "No patent grants",
+        "No trademark provisions",
+        "Simple attribution requirement"
+      ],
+      "compatibility": {
+        "with_gpl": "Compatible with all GPL versions",
+        "with_mit": "Self-compatible",
+        "with_bsd": "Compatible",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Proven in court cases",
+      "examples": ["React", "Node.js", "Ruby on Rails"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Developed at MIT in the 1980s. One of the earliest permissive licenses.",
+      "copyleft_strength": "None",
+      "osi_approved": true
+    },
+    {
+      "name": "GNU General Public License v3.0",
+      "description": "A copyleft license that requires derived works to be distributed under the same license and provides strong user freedoms and protections.",
+      "key_features": [
+        "Strong copyleft",
+        "Anti-Tivoization clause",
+        "Patent retaliation",
+        "Network use transparency"
+      ],
+      "compatibility": {
+        "with_gpl": "Self-compatible",
+        "with_mit": "GPL-3.0 can incorporate MIT-licensed code",
+        "with_bsd": "GPL-3.0 can incorporate BSD-licensed code",
+        "with_proprietary": "No"
+      },
+      "legal_enforceability": "Proven in multiple jurisdictions",
+      "examples": ["GCC", "Linux Kernel (dual-licensed with GPL-2.0)"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Complete corresponding source",
+        "modification_clause": "Must share under same license",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Released in 2007 as major update to GPL-2.0. Addresses modern software distribution methods.",
+      "copyleft_strength": "Strong",
+      "osi_approved": true
+    },
+    {
+      "name": "GNU General Public License v2.0",
+      "description": "An older copyleft license that requires modifications to be open-source but allows linking with proprietary software under certain conditions.",
+      "key_features": [
+        "Strong copyleft",
+        "No patent clauses",
+        "No network use provisions",
+        "Linking exception"
+      ],
+      "compatibility": {
+        "with_gpl": "GPL-3.0 can incorporate GPL-2.0 code",
+        "with_mit": "GPL-2.0 can incorporate MIT-licensed code",
+        "with_bsd": "GPL-2.0 can incorporate BSD-licensed code",
+        "with_proprietary": "No"
+      },
+      "legal_enforceability": "Proven in court cases",
+      "examples": ["Linux Kernel", "GIMP"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Complete corresponding source",
+        "modification_clause": "Must share under same license",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Released in 1991. Foundation for open source movement. Still widely used despite newer version.",
+      "copyleft_strength": "Strong",
+      "osi_approved": true
+    },
+    {
+      "name": "GNU Lesser General Public License v2.1",
+      "description": "A weaker copyleft license that allows linking with proprietary software while still requiring modifications to the licensed code to remain open-source.",
+      "key_features": [
+        "Weak copyleft",
+        "Library-specific provisions",
+        "No patent clauses",
+        "Combination rights"
+      ],
+      "compatibility": {
+        "with_gpl": "GPL-3.0 can incorporate LGPL-2.1 code",
+        "with_mit": "LGPL-2.1 can incorporate MIT-licensed code",
+        "with_bsd": "LGPL-2.1 can incorporate BSD-licensed code",
+        "with_proprietary": "Yes (for linking)"
+      },
+      "legal_enforceability": "Proven in court cases",
+      "examples": ["GNU C Library", "Qt (historical usage)"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Modified files only",
+        "modification_clause": "Must share changes to library",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Created in 1991 as Library GPL, renamed in 1999. Designed for shared libraries.",
+      "copyleft_strength": "Weak",
+      "osi_approved": true
+    },
+    {
+      "name": "Mozilla Public License 2.0",
+      "description": "A hybrid license that allows open-source and proprietary use while requiring changes to be shared under the same license if distributed.",
+      "key_features": [
+        "File-level copyleft",
+        "Patent grants",
+        "Trademark rules",
+        "Clear contribution guidelines"
+      ],
+      "compatibility": {
+        "with_gpl": "GPL-3.0 compatible",
+        "with_mit": "MPL-2.0 can incorporate MIT-licensed code",
+        "with_bsd": "MPL-2.0 can incorporate BSD-licensed code",
+        "with_proprietary": "Yes (with restrictions)"
+      },
+      "legal_enforceability": "Moderate court precedent",
+      "examples": ["Firefox", "Thunderbird"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Modified files only",
+        "modification_clause": "Must share changes to original files",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Created by Mozilla Foundation in 1998, updated in 2012. Designed for corporate open source projects.",
+      "copyleft_strength": "Weak",
+      "osi_approved": true
+    },
+    {
+      "name": "BSD 2-Clause 'Simplified' License",
+      "description": "A permissive license with minimal restrictions, requiring only attribution and no warranty liability.",
+      "key_features": [
+        "Minimal restrictions",
+        "No patent clauses",
+        "No trademark provisions",
+        "Simple attribution"
+      ],
+      "compatibility": {
+        "with_gpl": "Compatible with all GPL versions",
+        "with_mit": "Self-compatible",
+        "with_bsd": "Self-compatible",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Proven in court cases",
+      "examples": ["FreeBSD", "NetBSD"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Developed at UC Berkeley in the 1980s. Evolved from original 4-clause BSD license.",
+      "copyleft_strength": "None",
+      "osi_approved": true
+    },
+    {
+      "name": "BSD 3-Clause 'New' or 'Revised' License",
+      "description": "A permissive license similar to BSD-2 but includes a clause preventing the use of contributors' names for promotion without permission.",
+      "key_features": [
+        "Minimal restrictions",
+        "No patent clauses",
+        "No trademark provisions",
+        "Endorsement restriction"
+      ],
+      "compatibility": {
+        "with_gpl": "Compatible with all GPL versions",
+        "with_mit": "Self-compatible",
+        "with_bsd": "Self-compatible",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Proven in court cases",
+      "examples": ["Original BSD OS", "PostgreSQL"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Evolved from original 4-clause BSD license in the 1990s. Addresses endorsement concerns.",
+      "copyleft_strength": "None",
+      "osi_approved": true
+    },
+    {
+      "name": "Creative Commons Zero v1.0 Universal",
+      "description": "A public domain dedication license that allows unrestricted use, modification, and distribution without any conditions.",
+      "key_features": [
+        "No restrictions",
+        "Global public domain waiver",
+        "No warranty",
+        "Not for software"
+      ],
+      "compatibility": {
+        "with_gpl": "Not applicable",
+        "with_mit": "Not applicable",
+        "with_bsd": "Not applicable",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Varies by jurisdiction",
+      "examples": ["Public datasets", "Educational content"],
+      "provisions": {
+        "attribution": false,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Created by Creative Commons in 2010. Designed for non-software works.",
+      "copyleft_strength": "None",
+      "osi_approved": false
+    },
+    {
+      "name": "Eclipse Public License 2.0",
+      "description": "A copyleft license requiring modified versions of the software to be shared under the same license but allowing linking with proprietary code.",
+      "key_features": [
+        "Project-level copyleft",
+        "Patent grants",
+        "Clear contribution terms",
+        "Commercial friendliness"
+      ],
+      "compatibility": {
+        "with_gpl": "GPL-3.0 can incorporate EPL-2.0 code",
+        "with_mit": "EPL-2.0 can incorporate MIT-licensed code",
+        "with_bsd": "EPL-2.0 can incorporate BSD-licensed code",
+        "with_proprietary": "Yes (with restrictions)"
+      },
+      "legal_enforceability": "Moderate court precedent",
+      "examples": ["Eclipse Platform", "WTP"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Modified files only",
+        "modification_clause": "Must share changes to original files",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Created by Eclipse Foundation in 2004, updated in 2019. Designed for commercial open source projects.",
+      "copyleft_strength": "Weak",
+      "osi_approved": true
+    },
+    {
+      "name": "GNU Affero General Public License v3.0",
+      "description": "A strong copyleft license that extends GPL-3.0 by requiring network-deployed software to provide source code access.",
+      "key_features": [
+        "Network copyleft",
+        "Anti-Tivoization",
+        "Patent retaliation",
+        "Remote network use provisions"
+      ],
+      "compatibility": {
+        "with_gpl": "AGPL-3.0 is stronger than GPL-3.0",
+        "with_mit": "AGPL-3.0 can incorporate MIT-licensed code",
+        "with_bsd": "AGPL-3.0 can incorporate BSD-licensed code",
+        "with_proprietary": "No"
+      },
+      "legal_enforceability": "Limited court precedent",
+      "examples": ["Nextcloud", "Mastodon"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "Complete corresponding source including network services",
+        "modification_clause": "Must share under same license",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Released in 2007 as extension to GPL-3.0. Addresses SaaS distribution model.",
+      "copyleft_strength": "Strongest",
+      "osi_approved": true
+    },
+    {
+      "name": "The Unlicense",
+      "description": "A public domain license that explicitly allows anyone to use, modify, and distribute software without restrictions.",
+      "key_features": [
+        "Public domain dedication",
+        "No restrictions",
+        "No warranty",
+        "Not OSI-approved"
+      ],
+      "compatibility": {
+        "with_gpl": "Not applicable",
+        "with_mit": "Not applicable",
+        "with_bsd": "Not applicable",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Varies by jurisdiction",
+      "examples": ["Small utility projects", "Code snippets"],
+      "provisions": {
+        "attribution": false,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Created in 2010 by Nathan Smith. Intended as alternative to public domain dedication.",
+      "copyleft_strength": "None",
+      "osi_approved": false
+    },
+    {
+      "name": "Boost Software License 1.0",
+      "description": "A permissive license that allows software to be used, modified, and distributed without many restrictions.",
+      "key_features": [
+        "Minimal restrictions",
+        "No patent clauses",
+        "No trademark provisions",
+        "GPL compatibility"
+      ],
+      "compatibility": {
+        "with_gpl": "Compatible with all GPL versions",
+        "with_mit": "Self-compatible",
+        "with_bsd": "Self-compatible",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Limited court precedent",
+      "examples": ["Boost C++ Libraries"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Created for Boost C++ Libraries in 2003. Designed for library distribution.",
+      "copyleft_strength": "None",
+      "osi_approved": true
+    },
+    {
+      "name": "ISC License",
+      "description": "A permissive license similar to the MIT License, with simple terms that allow free use, modification, and distribution.",
+      "key_features": [
+        "Minimal restrictions",
+        "No patent clauses",
+        "No trademark provisions",
+        "Simple attribution"
+      ],
+      "compatibility": {
+        "with_gpl": "Compatible with all GPL versions",
+        "with_mit": "Self-compatible",
+        "with_bsd": "Self-compatible",
+        "with_proprietary": "Yes"
+      },
+      "legal_enforceability": "Proven in court cases",
+      "examples": ["OpenBSD", "Django (historical usage)"],
+      "provisions": {
+        "attribution": true,
+        "source_code": "No requirement",
+        "modification_clause": "None",
+        "warranty": "Disclaimer included"
+      },
+      "history_and_context": "Derived from original 4-clause BSD license. Used by Internet Systems Consortium.",
+      "copyleft_strength": "None",
+      "osi_approved": true
+    }
+  ]
+}
