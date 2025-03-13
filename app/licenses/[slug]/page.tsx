@@ -4,9 +4,9 @@ import { generateSlug } from "@/util/helpers";
 import licenseData from "@/util/license-data.json";
 
 interface LicenseDetailPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 // Convert to async function
