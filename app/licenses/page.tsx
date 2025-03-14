@@ -91,15 +91,15 @@ const LicensesPage = async () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-100 hover:bg-gray-200 hover:cursor-pointer p-4 rounded shadow-sm border border-gray-300 hover:text-blue-500">
             <h3 className="font-semibold text-gray-800 mb-2">Project Goals</h3>
-            <p className="text-sm text-gray-600">Consider how you want others to use and contribute to your work. <span className="text-blue-500">Click here</span></p>
+            <p className="text-sm text-gray-600">Consider how you want others to use and contribute to your work. <a href="#" className="text-blue-500 underline">Click here</a></p>
           </div>
           <div className="bg-gray-100 hover:bg-gray-200 hover:cursor-pointer p-4 rounded shadow-sm border border-gray-300 hover:text-blue-500">
             <h3 className="font-semibold text-gray-800 mb-2">Community Impact</h3>
-            <p className="text-sm text-gray-600">Different licenses attract different types of contributors. <span className="text-blue-500">Click here</span></p>
+            <p className="text-sm text-gray-600">Different licenses attract different types of contributors. <a href="#" className="text-blue-500 underline">Click here</a></p>
           </div>
           <div className="bg-gray-100 hover:bg-gray-200 hover:cursor-pointer p-4 rounded shadow-sm border border-gray-300 hover:text-blue-500">
             <h3 className="font-semibold text-gray-800 mb-2">Legal Requirements</h3>
-            <p className="text-sm text-gray-600">Ensure compatibility with dependencies and your business model. <span className="text-blue-500">Click here</span></p>
+            <p className="text-sm text-gray-600">Ensure compatibility with dependencies and your business model. <a href="#" className="text-blue-500 underline">Click here</a></p>
           </div>
         </div>
       </section>
